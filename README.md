@@ -24,6 +24,6 @@ Initial sqlite database is already created.
 - I just pushed the whole thing in so it can be quickly run
 
 
-- It can be deleted and recreated using 
+- It can be deleted (you need to delete also whole migrations folder together with db) and recreated using 
 `pnpm run db:generate`
 and `pnpm run db:migrate`.
